@@ -1,0 +1,107 @@
+.container{
+	width: 1202px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+header{
+	padding-top: 80px;
+	background-color: #eeeeee;
+	padding-bottom: 50px;
+}
+.logo{
+	float: left;
+}
+nav{
+	float: right;
+}
+nav ul li{
+	font-family: arial;
+	margin-right: 40px;
+	display: inline;
+	margin-left: 10px;
+}
+nav ul li a{
+	color: #696969;
+}
+nav ul li a:hover{
+	background-color: #444444;
+	color: #ffffff;
+	border: 1px solid #444444;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 10px;
+}
+.verti{
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.verti-1{
+	width: 50%;
+	float: left;
+	padding-left: 77px;
+	box-sizing: border-box;
+	margin-top: 85px;
+	margin-bottom: 115px;
+}
+.verti-1 h1{
+	font-family: arial;
+	font-size:30px;
+	margin-bottom: 30px;
+	color: #444444;
+	font-weight: bold;
+}
+.verti-1 p{
+	font-family: arial;
+	font-size: 24px;
+	line-height: 30px;
+	color: #696969;
+}
+.verti-2{
+	width: 50%;
+	float: right;
+	padding-left:50px;
+	margin-top: 85px;
+	box-sizing: border-box;
+}
+.verti-2 button{
+	width: 385px;
+	margin-bottom: 15px;
+	height: 60px;
+	background-color: #0090c5;
+	border: 1px solid #0090c5;
+	border-radius: 10px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.verti-2 button a{
+	float: left;
+	padding-left: 32px;
+	color: #ffffff;
+}
+.verti-2 button i{
+	float: right;
+	border: 1px solid #ffffff;
+	font-size: 18px;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	background-color: #ffffff;
+	color: #0090c5;
+	border-radius: 100px;
+}
+.verti-2 button.different{
+	background-color: #f3f3f3;
+	border: 1px solid #f3f3f3;
+}
+.verti-2 button.different a{
+	color: #444444;
+}
+.verti-2 button.different i{
+	background-color: #444444;
+	color:  #ffffff;
+}
